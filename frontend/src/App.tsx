@@ -1,11 +1,17 @@
+import { observer } from "mobx-react-lite";
 import React, {FC} from "react";
+import AddForm from "./components/AddForm";
+import LoginForm from "./components/LoginForm";
+import TreeForm from "./components/TreeForm";
 
 const App: FC = () => {
   return (
     <div>
-      123
+      <LoginForm/>
+      <TreeForm/>
+      <AddForm/>
     </div>
   );
 }
 
-export default App;
+export default observer(App);

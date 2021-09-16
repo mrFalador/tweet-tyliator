@@ -4,11 +4,12 @@ import axios, { AxiosRequestConfig } from "axios";
 export const API_URL = 'http://localhost:5000'
 
 const $api = axios.create({
+    withCredentials: true,
     baseURL: API_URL
 })
 
 $api.interceptors.request.use((config : AxiosRequestConfig) => {
-    config.headers.autorization = `Bearer ${localStorage.getItem('token')}`;
+    config.headers.Autorization = `Bearer ${localStorage.getItem('token')}`;
     return config;
 })
 

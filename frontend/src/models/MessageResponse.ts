@@ -5,3 +5,4 @@ export interface MessageResponse {
     masterId: number;
     parentId: number;
 }
+

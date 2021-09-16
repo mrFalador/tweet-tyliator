@@ -8,8 +8,8 @@ const App: FC = () => {
   return (
     <div>
       <LoginForm/>
-      <TreeForm/>
       <AddForm/>
+      <TreeForm/>
     </div>
   );
 }

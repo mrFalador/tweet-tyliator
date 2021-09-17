@@ -1,6 +1,6 @@
 <h2>Full-stack aplication</h2>
 
-Stack: [Node](https://nodejs.org/en/), [Nest.js](https://nestjs.com/), [PostgreSQL](https://www.postgresql.org/), React[https://reactjs.org], Docker[https://www.docker.com]
+Stack: [Node](https://nodejs.org/en/), [Nest.js](https://nestjs.com/), [PostgreSQL](https://www.postgresql.org/), [React](https://reactjs.org), [Docker](https://www.docker.com)
 
 ## Description
 

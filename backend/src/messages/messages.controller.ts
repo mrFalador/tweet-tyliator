@@ -5,16 +5,16 @@ import { MessagesService } from './messages.service';
 
 @Controller('messages')
 export class MessagesController {
-    constructor(private messageService: MessagesService){}
+  constructor(private messageService: MessagesService) {}
 
-    @UseGuards(JwtAuthGuard)
-    @Post()
-    add(@Body() dto: AddMessageDto){
-        return this.messageService.addMessage(dto);
-    }
+  @UseGuards(JwtAuthGuard)
+  @Post()
+  add(@Body() dto: AddMessageDto) {
+    return this.messageService.addMessage(dto);
+  }
 
-    @Get()
-    getMessages(){
-        return this.messageService.getMessages();
-    }
+  @Get()
+  getMessages() {
+    return this.messageService.getMessages();
+  }
 }

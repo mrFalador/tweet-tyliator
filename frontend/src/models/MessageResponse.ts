@@ -1,8 +1,7 @@
 export interface MessageResponse {
-    id: number;
-    value: number;
-    operation: string;
-    masterId: number;
-    parentId: number;
+  id: number;
+  value: number;
+  operation: string;
+  masterId: number;
+  parentId: number;
 }
-
